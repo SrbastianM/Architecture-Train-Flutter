@@ -13,8 +13,6 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  String test = "Hello world";
-  String url = "https://rickandmortyapi.com/api/character/";
   List<CharacterModel> characters = [];
 
   @override // es una mala practica llamar asincronas dentro del init state
