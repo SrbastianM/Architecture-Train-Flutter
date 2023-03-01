@@ -31,4 +31,5 @@ Future<Character?> getCharacter() async {
   } catch (e) {
     print(e);
   }
+  return null;
 }
